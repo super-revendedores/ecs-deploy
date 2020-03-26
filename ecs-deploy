@@ -19,7 +19,7 @@ USE_MOST_RECENT_TASK_DEFINITION=false
 AWS_CLI=$(which aws)
 AWS_ECS="$AWS_CLI --output json ecs"
 FORCE_NEW_DEPLOYMENT=false
-SKIP_DEPLOYMENTS_CHECK=false
+SKIP_DEPLOYMENTS_CHECK=true
 RUN_TASK=false
 
 function usage() {
